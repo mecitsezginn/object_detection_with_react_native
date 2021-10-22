@@ -2,7 +2,7 @@
 Python ile eğittiğim plaka bulma modelini react native ile kullanılması
 
 <img src="https://raw.githubusercontent.com/mecitsezginn/object_detection_with_react_native/main/foto/1.jpeg" width="200" title="hover text">
-
+<img src="https://raw.githubusercontent.com/mecitsezginn/object_detection_with_react_native/main/foto/2.jpeg" width="200" title="hover text">
 
 ## kütüphaneler
 ```
