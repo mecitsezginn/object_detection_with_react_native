@@ -30,7 +30,7 @@ android:screenOrientation="portrait"
 ```
 
 ## tflite ile camera kütüphaneleri için komutlar
-tflite ve camera kütüphanlerinin çalışması için ```android > app > build.gradle``` dosyasına aşaığıdaki komutları ekliyoruz.
+tflite ve camera kütüphanlerinin çalışması için ```android > app > build.gradle``` dosyasına aşağıdaki komutları ekliyoruz.
 
 tflite için;
 ```
