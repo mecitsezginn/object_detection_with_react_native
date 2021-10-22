@@ -11,7 +11,7 @@ npm i react-native-image-resizer
 npm i tflite-react-native
 ```
 
-## izinler (sadece Andorid için)
+## izinler
 Kamera için izinler ```android > app > src > main > AndroidMAnifest.xml``` dosyaya aşağıdaki komutları ekliyoruz.
 
 ```
@@ -56,5 +56,6 @@ android{
 }
 ```
 
+## tflite-react-native kütüphanesinde yapılacak işlemler
 
 
