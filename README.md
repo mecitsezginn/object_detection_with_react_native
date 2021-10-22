@@ -58,4 +58,4 @@ android{
 
 ## tflite-react-native kütüphanesinde yapılacak işlemler
 
-
+<img src="https://raw.githubusercontent.com/mecitsezginn/object_detection_with_react_native/main/foto/output.png" width="750" title="hover text">
