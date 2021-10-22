@@ -11,7 +11,7 @@ npm i react-native-image-resizer
 npm i tflite-react-native
 ```
 
-## izinler (sadece Andorid için)
+## izinler
 Kamera için izinler ```android > app > src > main > AndroidMAnifest.xml``` dosyaya aşağıdaki komutları ekliyoruz.
 
 ```
@@ -56,5 +56,12 @@ android{
 }
 ```
 
+## tflite-react-native kütüphanesinde yapılacak işlemler
+```node_modules > tflite-react-native > android > src > main > java > com > reactlibrary > TfliteReactNativeModule.java```
+dosyasında NUM_DETECTIONS değişkeni modelin çıktı sayısını tutuyor. Çıktı sayısına göre değişiklik yapabiliriz.
 
+<img src="https://raw.githubusercontent.com/mecitsezginn/object_detection_with_react_native/main/foto/output.png" width="500" title="hover text">
+
+## model ve label dosyasını projeye ekleme
+``` android > app > src > main > assets``` klasörünün içine model ve label dosyamızı yapıştırıyoruz.
 
