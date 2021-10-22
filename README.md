@@ -63,4 +63,5 @@ dosyasında NUM_DETECTIONS değişkeni modelin çıktı sayısını tutuyor. Ç�
 <img src="https://raw.githubusercontent.com/mecitsezginn/object_detection_with_react_native/main/foto/output.png" width="500" title="hover text">
 
 ## model ve label dosyasını projeye ekleme
+``` android > app > src > main > assets``` klasörünün içine model ve label dosyamızı yapıştırıyoruz.
 
