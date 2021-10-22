@@ -12,9 +12,7 @@ npm i tflite-react-native
 ```
 
 ## izinler
-Kamera için izinler
-
-```android > app > src > main > AndroidMAnifest.xml```
+Kamera için izinler ```android > app > src > main > AndroidMAnifest.xml``` dosyaya aşağıdaki komutları ekliyoruz.
 
 ```
 <uses-permission android:name="android.permission.CAMERA"/>
@@ -26,4 +24,7 @@ Kamera için izinler
 <uses-feature android:name="android.hardware.camera.front" android:required="false" />
 ```
 
-Telefon ekreanının dönmemesi için komut
+Telefon ekreanının dönmemesi için komut aynı dosyaya ``` activity``` nin içine aşağıdaki komutu ekliyoruz.
+```
+android:screenOrientation="portrait"
+```
