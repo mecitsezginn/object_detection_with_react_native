@@ -20,6 +20,7 @@ npm i tflite-react-native
 ```
 
 ## izinler
+### 1-
 Kamera için izinler ```android > app > src > main > AndroidMAnifest.xml``` dosyaya aşağıdaki komutları ekliyoruz.
 
 ```
@@ -37,8 +38,8 @@ Telefon ekranının dönmemesi için komut aynı dosyaya ``` activity``` nin iç
 android:screenOrientation="portrait"
 ```
 
-## tflite ile camera kütüphaneleri için komutlar
-tflite ve camera kütüphanlerinin çalışması için ```android > app > build.gradle``` dosyasına aşağıdaki komutları ekliyoruz.
+### 2-
+tflite ve camera kütüphanelerinin çalışması için ```android > app > build.gradle``` dosyasına aşağıdaki komutları ekliyoruz.
 
 tflite için;
 ```
