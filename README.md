@@ -24,7 +24,37 @@ Kamera için izinler ```android > app > src > main > AndroidMAnifest.xml``` dosy
 <uses-feature android:name="android.hardware.camera.front" android:required="false" />
 ```
 
-Telefon ekreanının dönmemesi için komut aynı dosyaya ``` activity``` nin içine aşağıdaki komutu ekliyoruz.
+Telefon ekranının dönmemesi için komut aynı dosyaya ``` activity``` nin içine aşağıdaki komutu ekliyoruz.
 ```
 android:screenOrientation="portrait"
 ```
+
+## tflite ile camera kütüphaneleri için komutlar
+tflite ve camera kütüphanlerinin çalışması için ```android > app > build.gradle``` dosyasına aşaığıdaki komutları ekliyoruz.
+
+tflite için;
+```
+android{
+  aaptOptions {
+    noCompress 'tflite'
+  }
+}
+
+
+dependencies {
+  implementation 'org.tensorflow:tensorflow-lite:+'
+}
+```
+
+camera için;
+```
+android{
+  defaultConfig {
+    vectorDrawables.useSupportLibrary = true
+    missingDimensionStrategy 'react-native-camera', 'general'
+  }
+}
+```
+
+
+
