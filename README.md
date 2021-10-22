@@ -57,5 +57,10 @@ android{
 ```
 
 ## tflite-react-native kütüphanesinde yapılacak işlemler
+```node_modules > tflite-react-native > android > src > main > java > com > reactlibrary > TfliteReactNativeModule.java```
+dosyasında NUM_DETECTIONS değişkeni modelin çıktı sayısını tutuyor. Çıktı sayısına göre değişiklik yapabiliriz.
 
-<img src="https://raw.githubusercontent.com/mecitsezginn/object_detection_with_react_native/main/foto/output.png" width="750" title="hover text">
+<img src="https://raw.githubusercontent.com/mecitsezginn/object_detection_with_react_native/main/foto/output.png" width="500" title="hover text">
+
+## model ve label dosyasını projeye ekleme
+
