@@ -10,3 +10,20 @@ npm i react-native-fast-image
 npm i react-native-image-resizer
 npm i tflite-react-native
 ```
+
+## izinler
+Kamera için izinler
+
+```android > app > src > main > AndroidMAnifest.xml```
+
+```
+<uses-permission android:name="android.permission.CAMERA"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+<uses-feature android:name="android.hardware.camera" android:required="false" />
+<uses-feature android:name="android.hardware.camera.front" android:required="false" />
+```
+
+Telefon ekreanının dönmemesi için komut
